@@ -1,0 +1,74 @@
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: dodgerblue;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+	border: 10px solid #555;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+	display: block;
+	text-align: center;
+    text-decoration: none;
+}
+
+a { color:red } 
+
+a:visited { text-decoration: none; color:black; }
+
+nav li a:hover {
+    background-color: gray;
+}
+
+p.serif {
+    font-family: "Times New Roman", Times, serif;
+}
+
+p.sansserif {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+article {
+    margin-left: 170px;
+    border: 2px solid gray;
+	border-style: ridge;
+    padding: 1em;
+    overflow: hidden;
+}
+
+div.relative {
+    position: relative;
+}
+
+nav {
+    font-family: 'Lato';font-size: 22px;
+}
+
+
+body  {
+	/* Should have really used background-colour but I just found it easier to use an image. Also I can change it to any image I want easily*/
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARwAAACxCAMAAAAh3/JWAAAAA1BMVEWHzvpLEdEdAAAASElEQVR4nO3BMQEAAADCoPVPbQ0PoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIALA8UNAAFusnLHAAAAAElFTkSuQmCC");
+    /*Makes background take up full screen*/
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
